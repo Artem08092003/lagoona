@@ -604,14 +604,14 @@ a {
 
 .want-tour-select {
   box-sizing: border-box;
-  height: 16px;
+  min-height: 16px;
   width: 170px;
   border: none;
 }
 
 .want-tour-input {
   box-sizing: border-box;
-  height: 16px;
+  min-height: 16px;
   width: 120px;
   border: none;
 }
