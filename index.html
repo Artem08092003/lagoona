@@ -563,46 +563,49 @@
             Хочу тур
           </h2>
           <form class="want-tour-form flex" action="https://jsonplaceholder.typicode.com/posts" method="post">
-            <figure class="want-tour-figure">
-              <figcaption class="want-tour-figcaption">
+            <div class="want-tour-div">
+              <label class="want-tour-label" for="city">
                 Город вылета
-              </figcaption>
-              <select class="want-tour-select" name="city">
+              </label>
+              <select class="want-tour-select" name="city" id="city">
                 <option value="Санкт-Петебург">Санкт-Петебург</option>
+                <option value="Москва">Москва</option>
+                <option value="Астрахань">Астрахань</option>
               </select>
-            </figure>
+            </div>
 
-            <figure class="want-tour-figure">
-              <figcaption class="want-tour-figcaption">
+            <div class="want-tour-div">
+              <label class="want-tour-label" for="country">
                 Страна
-              </figcaption>
-              <select class="want-tour-select" name="country">
+              </label>
+              <select class="want-tour-select" name="country" id="country">
                 <option value="Австралия">Австралия</option>
+                <option value="Россия" selected>Россия</option>
               </select>
-            </figure>
+            </div>
 
-            <figure class="want-tour-figure">
-              <figcaption class="want-tour-figcaption">
+            <div class="want-tour-div want-tour-div-input">
+              <label class="want-tour-label" for="data">
                 Дата прибытия
-              </figcaption>
-              <input class="want-tour-input want-tour-data" name="data" type="date">
-            </figure>
+              </label>
+              <input class="want-tour-input want-tour-data" name="data" type="date" value="2021-10-18" id="data">
+            </div>
 
-            <figure class="want-tour-figure">
-              <figcaption class="want-tour-figcaption">
+            <div class="want-tour-div want-tour-div-input">
+              <label class="want-tour-label" for="number-night">
                 Ночей
-              </figcaption>
+              </label>
               <input class="want-tour-input want-tour-number-night want-tour-input-border" name="number night"
-                type="number" value="6">
-            </figure>
+                type="number" value="6" id="number-night">
+            </div>
 
-            <figure class="want-tour-figure want-tour-figure-tourist">
-              <figcaption class="want-tour-figcaption">
+            <div class="want-tour-div want-tour-div-input want-tour-div-tourist">
+              <label class="want-tour-label" for="number-people">
                 Туристы
-              </figcaption>
+              </label>
               <input class="want-tour-input want-tour-number-people want-tour-input-border" name="number people"
-                type="number" value="2" required>
-            </figure>
+                type="number" value="2" id="number-people" required>
+            </div>
 
             <button class="button want-tour-button button-reset" type="submit">
               Найти

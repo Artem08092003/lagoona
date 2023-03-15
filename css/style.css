@@ -589,13 +589,19 @@ a {
   background-color: #fff;
 }
 
-.want-tour-figure {
-  margin: 0;
+.want-tour-div {
+  width: 170px;
+  margin-right: 40px;
 }
 
-.want-tour-figcaption {
+.want-tour-div-input {
+  width: 120px;
+}
+
+.want-tour-label {
+  display: block;
   width: 170px;
-  margin-bottom: 15px;
+  padding-bottom: 15px;
   font-weight: 400;
   font-size: 12px;
   line-height: 12px;
@@ -607,6 +613,10 @@ a {
   min-height: 16px;
   width: 170px;
   border: none;
+  -webkit-appearance: none;
+  background-image: url(../img/want-tour-select.svg);
+  background-repeat: no-repeat;
+  background-position: right center;
 }
 
 .want-tour-input {
@@ -620,8 +630,8 @@ a {
   border-bottom: 1px solid #e9e9e9;
 }
 
-.want-tour-figure-tourist {
-  margin-right: 10px;
+.want-tour-div-tourist {
+  margin-right: 50px;
 }
 
 .want-tour-button {
