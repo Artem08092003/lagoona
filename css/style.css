@@ -475,6 +475,7 @@ a {
 .special-offers-item-right {
   width: 573px;
   min-height: 540px;
+  flex-grow: 1;
 }
 
 .special-offers-item-container-right {
