@@ -146,6 +146,7 @@ a {
   padding: 13px 20px;
   border: 1px solid var(--link-button-color, #CC9933);
   border-radius: 15px;
+  outline: none;
   transition-property: color, background-color, border;
   transition-duration: 0.3s;
   transition-delay: 0.1s;
