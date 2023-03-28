@@ -207,8 +207,10 @@ a {
   left: -5px;
   border: 1px solid var(--link-button-color, #CC9933);
   outline: none;
-  transition: border 0.3s ease-in-out;
   opacity: 0;
+  transition-property: border-color, opacity;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
 }
 
 .header-tel:focus::after {
@@ -255,8 +257,10 @@ a {
   bottom: -10px;
   border: 1px solid var(--link-button-color, #CC9933);
   outline: none;
-  transition: border 0.3s ease-in-out;
   opacity: 0;
+  transition-property: border-color, opacity;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
 }
 
 .header-arrow-link:focus::after {
@@ -317,8 +321,10 @@ a {
   left: -5px;
   border: 1px solid var(--link-button-color, #CC9933);
   outline: none;
-  transition: border 0.3s ease-in-out;
   opacity: 0;
+  transition-property: border-color, opacity;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
 }
 
 .header-item-link:focus::after {
@@ -402,6 +408,9 @@ a {
   border: 1px solid var(--link-button-color, #CC9933);
   outline: none;
   opacity: 0;
+  transition-property: border-color, opacity;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
 }
 
 .special-offers-item-link:focus::after {
@@ -552,6 +561,9 @@ a {
   border: 1px solid var(--link-button-color, #CC9933);
   outline: none;
   opacity: 0;
+  transition-property: border-color, opacity;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
 }
 
 .services-item-link:focus::after {
@@ -949,8 +961,10 @@ a {
   left: -5px;
   border: 1px solid var(--link-button-color, #CC9933);
   outline: none;
-  transition: border 0.3s ease-in-out;
   opacity: 0;
+  transition-property: border-color, opacity;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
 }
 
 .contact-link-item:focus::after {
@@ -1089,8 +1103,10 @@ a {
   left: -5px;
   border: 1px solid var(--link-button-color, #CC9933);
   outline: none;
-  transition: border 0.3s ease-in-out;
   opacity: 0;
+  transition-property: border-color, opacity;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
 }
 
 .footer-link-address:focus::after {
